@@ -1,5 +1,5 @@
 name: Kwiki-Raw
-version: 0.01
+version: 0.02
 abstract: Action to retrieve the wiki text of a page
 author: Chris Dent <cdent@burningchrome.com>
 license: perl

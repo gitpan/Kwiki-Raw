@@ -5,13 +5,14 @@ use mixin 'Kwiki::Installer';
 const class_id             => 'raw';
 const cgi_class            => 'Kwiki::Raw::CGI';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub register {
     my $registry = shift;
     $registry->add(action => 'raw');
     $registry->add(toolbar => 'raw_button',
-                   template => 'raw_button.html'
+                   template => 'raw_button.html',
+                   show_for => 'display',
                );
 }
 
